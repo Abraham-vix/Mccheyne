@@ -1,0 +1,121 @@
+/* Estilos para o caixa da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para a classe caixa */
+.caixa {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    height: 960px;
+    align-items: center;
+    background-color: blue;
+
+}
+
+/* Estilos para a classe caixa-titulos */
+.caixa-titulos {
+    /* Adicione estilos específicos para a classe caixa-titulos aqui */
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-color:red;
+    width: 700px;
+  margin-bottom: 5px;
+  border: 3px solid #999999;
+    
+
+}
+
+/* Estilos para os títulos dentro da classe caixa-titulos */
+.caixa-titulos h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+/* Estilos para a classe caixa-base */
+.caixa-base {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+ 
+}
+
+/* Estilos para a classe caixa-base-estudos */
+.caixa-base-estudos {
+    /* Adicione estilos específicos para a classe caixa-base-estudos aqui */
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.caixa-base-estudos-livro {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+/* Estilos para os títulos dentro da classe caixa-base-estudos-titulos */
+.caixa-base-estudos-livro-titulos {
+    /* Adicione estilos específicos para a classe caixa-base-estudos-livro-titulos aqui */
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-color: magenta;
+}
+
+/* Estilos para os títulos dentro da classe caixa-base-estudos-livro-titulos */
+.caixa-base-estudos-livro-titulos h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+}
+
+.caixa-base-estudos-livro-titulos span {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+
+/* Estilos para os textos dentro da classe caixa-base-estudos-livro-textos */
+.caixa-base-estudos-livro-textos {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    height: 600px;
+    column-gap: 50px;
+
+    
+    /* Adicione estilos específicos para a classe caixa-base-estudos-livro-textos aqui */
+}
+
+/* Estilos para os textos dentro da classe caixa-base-estudos-livro-textos */
+.caixa-base-estudos-livro-textos p {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+ 
